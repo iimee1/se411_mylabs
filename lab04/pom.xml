@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sa.psu.se411</groupId>
+  <artifactId>tasksmanager</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <name>TasksManager</name>
+  <description>SE411 course main project: a JavaFX desktop application.</description>
+  <url>https://github.com/iimee1/se411_mylabs</url>
+
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>SE411-Tech-Company</name>
+    <url>https://github.com/iimee1</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <name>Malik Tariq Mohammed</name>
+      <email>221110513@psu.edu.sa</email>
+    </developer>
+  </developers>
+
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>23</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <configuration>
+          <mainClass>sa.psu.se411.tasksmanager.App</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
