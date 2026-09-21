@@ -1,4 +1,4 @@
-# se411_mylabs
+# Introduction
 This is a repository for my solutions to SE411 labs
 
 # Chapters
