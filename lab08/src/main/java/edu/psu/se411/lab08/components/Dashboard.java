@@ -12,7 +12,7 @@ public class Dashboard implements IObserver{
 		this.name = name;
 	}
 	public void display() {
-		System.out.println("Dashboard " + name + " displaying sensor data: " + sensor_data);
+		System.out.printf("Dashboard %s displaying sensor data: %.2f%n", name, sensor_data);
 	}
 	@Override
 	public void update(ISubject subject) {
